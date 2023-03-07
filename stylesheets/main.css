@@ -1,0 +1,84 @@
+body,div,h2,h3 {
+    border-width: 4px;
+    border-style: solid;
+    padding: 7px;
+}
+html {
+    background-color: antiquewhite;
+    background-image: url("../bg.png");
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+body {
+    border-color: white;
+    background-color: white;
+}
+
+div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+
+
+/*
+h1 {
+    border-style: solid;
+    border-color: blueviolet;
+}
+*/
+
+#title {
+    border-color: aqua;
+    font-size: 14pt;
+}
+
+#header {
+    padding: 0px;
+    border: none;
+    background-color: aqua;
+    text-align: right;
+}
+#header h2,h1 {
+    padding: 0px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.journal {
+    border-color: #B7EBEB;
+    background-color: #E3FCFC;
+    margin-top: 10px;
+}
+
+.journal div {
+    border: none;
+}
+
+.journal h3{
+    border: none;
+    display: inline;
+}
+
+.journal h2 {
+    display: inline;
+    border-bottom: 2px dashed blue;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+#container p {
+    max-width: 70%;
+}
